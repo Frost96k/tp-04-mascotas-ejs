@@ -8,12 +8,16 @@ Aplicación web de mascotas en adopción construida con Express, EJS y `express-
 
 ```bash
 npm install
+o
+npm.cmd install
 ```
 
 ## Ejecución
 
 ```bash
 npm start
+o
+npm.cmd start
 ```
 
 El servidor queda disponible en `http://localhost:3000`. Para revisar sintaxis: `npm run check`.
