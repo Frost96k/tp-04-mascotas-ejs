@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "Luna", "especie": "Rottweiler", "edad": 0, "estado": "En adopción", "descripcion": "Cariñosa, sociable y con mucha energía para pasear.", "imagen": "/img/rott.jpeg" },
+  { "id": 2, "nombre": "Milo", "especie": "Gato", "edad": 0, "estado": "Reservado", "descripcion": "Curioso y tranquilo; disfruta de las siestas junto a una ventana.", "imagen": "/img/gatog.jpg" },
+  { "id": 3, "nombre": "Nala", "especie": "Coneja", "edad": 1, "estado": "En adopción", "descripcion": "Pequeña, dócil y acostumbrada al contacto con personas.", "imagen": "/img/Conejito-blano.jpg" },
+  { "id": 4, "nombre": "Toto", "especie": "Perro", "edad": 6, "estado": "Adoptado", "descripcion": "Compañero sereno que encontró una familia responsable.", "imagen": "/img/perro.jpg" },
+  { "id": 5, "nombre": "Kiwi", "especie": "Gata", "edad": 0, "estado": "En adopción", "descripcion": "Cachorra juguetona que busca un hogar paciente y afectuoso.", "imagen": "/img/gato.jpg" }
+]

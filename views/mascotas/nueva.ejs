@@ -1,0 +1,13 @@
+<section class="formulario-wrap">
+  <p class="eyebrow">Nuevo registro</p>
+  <h1>Agregar mascota</h1>
+  <% if (error) { %><p class="error" role="alert"><%= error %></p><% } %>
+  <form action="/mascotas" method="post">
+    <div><label for="nombre">Nombre</label><input id="nombre" name="nombre" value="<%= mascota.nombre || '' %>" required></div>
+    <div><label for="especie">Especie</label><input id="especie" name="especie" value="<%= mascota.especie || '' %>" required></div>
+    <div><label for="edad">Edad</label><input id="edad" name="edad" type="number" min="0" step="1" value="<%= mascota.edad || '' %>" required></div>
+    <div><label for="estado">Estado</label><select id="estado" name="estado" required><option value="">Seleccioná un estado</option><% estados.forEach((estado) => { %><option value="<%= estado %>" <%= mascota.estado === estado ? 'selected' : '' %>><%= estado %></option><% }) %></select></div>
+    <div><label for="descripcion">Descripción</label><textarea id="descripcion" name="descripcion" required><%= mascota.descripcion || '' %></textarea></div>
+    <button type="submit">Guardar mascota</button>
+  </form>
+</section>
